@@ -72,9 +72,10 @@ footer b {
   font-size: 110%;
 }
 
-#posting section {
+#posting > * {
   display: none;
 }
+
 #posting section.selected {
   display: block;
 }
