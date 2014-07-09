@@ -8,7 +8,7 @@ html, body {
   overflow: hidden;
   height: 100%;
   margin: 0;
-  font-size: 4vmin;
+  font-size: 4vh;
   line-height: 4vmin;
   font-family: 'Open Sans';
   color: #4D4E53;
@@ -18,9 +18,10 @@ html, body {
 header {
   position: absolute;
   color: #fff;
+  font-size: .7em;
   background: linear-gradient(#EA3B28, #C13832);
-  padding: .5em 10em;
-  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 17vmin);
+  padding: .3em 10em;
+  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 12vmin);
 }
 
 footer {
@@ -29,14 +30,25 @@ footer {
   right: 1em;
 }
 
+#posting * {
+  display: none;
+}
+
+#posting h1,
+#posting h2,
+#posting p {
+  display: block;
+}
+
 #posting h1 {
   text-align: center;
   position: absolute;
-  font-size: 5vw;
-  top: 15vh;
+  font-size: 8vh;
+  top: 11vh;
   left: 50vw;
-  min-width: 85vw;
-  line-height: 6vw;
+  min-width: 75vw;
+  max-width: 80vw;
+  line-height: 1.2em;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 1vmin #fff;
 }
@@ -44,10 +56,12 @@ footer {
 #posting h2 {
   text-align: center;
   position: absolute;
-  font-size: 4vw;
-  min-width: 85%;
+  font-size: 6vh;
+  min-width: 65%;
   top: 35vh;
   left: 50vw;
+  font-weight: 500;
+  line-height: 1.2em;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 1vmin #fff;
 }
@@ -58,17 +72,26 @@ footer {
 
 #posting p {
   position: absolute;
-  top: 65vh;
+  top: 62vh;
   left: 50vw;
-  min-width: 70%;
+  min-width: 80%;
   line-height: 1.3em;
   text-align: center;
   transform: translate(-50%, -50%);
   font-size: 4vmin;
+  max-height: 5.2em;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  bottom: .5em;
+  left: .5em;
+  height: 3em;
 }
 
 footer b {
-  color: #0095DD;
+  color: #3953A4;
   font-size: 110%;
 }
 
