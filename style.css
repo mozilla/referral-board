@@ -18,10 +18,10 @@ html, body {
 header {
   position: absolute;
   color: #fff;
-  font-size: .7em;
+  font-size: 1em;
   background: linear-gradient(#EA3B28, #C13832);
-  padding: .3em 10em;
-  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 12vmin);
+  padding: .5em 10em;
+  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 15vmin);
 }
 
 footer {
