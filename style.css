@@ -20,8 +20,8 @@ header {
   color: #fff;
   font-size: 1em;
   background: linear-gradient(#EA3B28, #C13832);
-  padding: .5em 10em;
-  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 15vmin);
+  padding: .3em 10em;
+  transform: translate(-50%, -50%) rotate(-45deg) translate(0, 17vmin);
 }
 
 footer {
